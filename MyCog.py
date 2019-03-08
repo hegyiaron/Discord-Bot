@@ -12,7 +12,7 @@ import re
 
 bot = commands.Bot(command_prefix='-', description=None)
 
-#A "cog" létrehozása, amely a fő scriptben előlesz hívva
+#A "cog" létrehozása, amely a fő scriptben elő lesz hívva
 class MyCog:
     
     def __init__(self, bot):
